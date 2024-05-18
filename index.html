@@ -8,14 +8,14 @@
         text-align: center;
     }
 
-    .left {
-        float: left;
-        width: 50%;
+    .flex-parent {
+        display: flex;
+        padding-top: 40px; 
+        padding-bottom: 40px;
     }
 
-    .right {
-        float: right;
-        width: 50%;
+    .flex-child {
+        flex: 1;
     }
 
     h1 {
@@ -45,13 +45,19 @@
 </style>
 
 <body>
-    <h1>Welcome to my website!</h1>
-    <p>My current languages include Python, Batch, and HTML</p>
-    <a href="https://github.com/icemoss" title="GitHub">
-        <span>
-            <object type="image/svg+xml" data="github-mark.svg" width="98" height="96">Github</object>
-        </span>
-    </a>
+    <div class='parent flex-parent'>
+      <div class="flex-child">
+        <h1>Welcome to my website!</h1>
+        <p>My current languages include Python, Batch, and HTML</p>
+      </div>
+      <div class="flex-child">
+        <a href="https://github.com/icemoss" title="GitHub">
+            <span>
+                <object type="image/svg+xml" data="github-mark.svg" width="98" height="96">Github</object>
+          </span>
+        </a>
+      </div>
+    </div>
 </body>
 
 </html>
