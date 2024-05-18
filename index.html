@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-GB">
 <head>
-    <title>Icemoss</title>
+    <title>IceMoss</title>
     <link rel="icon" type="image/x-icon" href="icemoss-circle.ico">
     <meta name="darkreader-lock">
 <style>
@@ -14,6 +14,8 @@
         display: flex;
         padding-top: 40px; 
         padding-bottom: 40px;
+        padding-left: 30px;
+        padding-right: 30px;
     }
 
     .flex-child {
@@ -23,6 +25,7 @@
     h1 {
         color: white;
         font-family: Arial, Helvetica, sans-serif;
+        text-decoration: underline;
     }
 
     p {
@@ -44,14 +47,18 @@
         position: relative;
         z-index: -1;
     }
+
+    .nowrap {
+        white-space: nowrap;
+    }
 </style>
 
 <body>
     <div class='parent flex-parent'>
       <div class="flex-child">
         <img src="icemoss-circle.png" style="width:200px;height:200px;" alt="IceMoss Photo">
-        <h1>Welcome to my website!</h1>
-        <p>My current languages include Python, Batch, and HTML</p>
+        <h1>IceMoss</h1>
+          <p>Hey, I'm a student studying Computer Science with an interest in Linux and <span class="nowrap">open-source</span> technologies.</p>
       </div>
       <div class="flex-child" style="padding-top:50px;">
         <a href="https://github.com/icemoss" title="GitHub">
