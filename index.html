@@ -51,6 +51,15 @@
     .nowrap {
         white-space: nowrap;
     }
+    
+    .section:hover {
+        transform: scale(1.2);
+    }
+    .section {
+      transition: all 0.75s;
+      transform-origin: 50% 50%;
+      
+    }
 </style>
 
 <body>
@@ -60,12 +69,20 @@
         <h1>IceMoss</h1>
           <p>Hey, I'm a student studying Computer Science with an interest in Linux and <span class="nowrap">open-source</span> technologies.</p>
       </div>
-      <div class="flex-child" style="padding-top:50px;">
-        <a href="https://github.com/icemoss" title="GitHub">
-          <span>
-            <object type="image/svg+xml" data="github-mark.svg" width="98" height="96">Github</object>
-          </span>
-        </a>
+      <div class="flex-child " style="padding-top:50px;">
+        <div width="98px" style="display:inline-flex;flex-direction:column;">
+          <a href="https://github.com/icemoss" class="section" title="GitHub" width="98" height="96">
+            <span>
+              <object type="image/svg+xml" data="github-mark.svg" width="98" height="96">Github</object>
+            </span>
+          </a>
+          <a href="https://discord.com/users/906544142170071091" class="section" title="Discord">
+           <span>
+              <object type="image/svg+xml" data="discord-mark-white.svg" width="98" height="96">Github</object>
+            </span>
+          </a>
+      </div>
+
       </div>
     </div>
 </body>
