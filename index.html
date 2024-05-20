@@ -39,6 +39,8 @@
         position: relative;
         z-index: 1;
         text-align: left;
+        font-size: 20px;
+        margin-left: 1em;
     }
 
     a span {
@@ -85,6 +87,16 @@
       background-color: transparent;
       text-decoration: underline;
     }
+
+    .linkbar {
+      margin-right: auto;
+      text-align: left;
+    }
+
+    .linkbar a {
+      margin-left: 1em;
+    }
+
 </style>
   </head>
   <body>
@@ -96,7 +108,9 @@
         <div style="width:400px;margin:auto;">
           <p>Hey, I'm a student studying Computer Science with an interest in
             Linux and <span class="nowrap">open-source</span> technologies.</p>
-          <a href="/whatiuse">Software I Use</a>
+          <div class="linkbar">
+            <a href="/whatiuse">Software I Use</a>
+          </div>
         </div>
       </div>
       <div class="flex-child " style="padding-top:50px;">
