@@ -35,10 +35,7 @@
     }
 
     a {
-        display: inline-block;
-        position: relative;
         z-index: 1;
-        text-align: left;
         font-size: 20px;
         margin-left: 1em;
     }
@@ -95,15 +92,15 @@
 
     .linkbarentry {
       width: fit-content;
-      transition: 0.1s;
-    }
-
-    .linkbarentry:hover {
-      margin-left: .5rem
     }
 
     .linkbarentry a {
       margin-left: 1em;
+      transition: margin-left 0.1s;
+    }
+
+    .linkbarentry a:hover {
+      margin-left: 0.5em
     }
 
 </style>
