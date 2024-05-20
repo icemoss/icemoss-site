@@ -31,12 +31,14 @@
     p {
         color: white;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: left;
     }
 
     a {
         display: inline-block;
         position: relative;
         z-index: 1;
+        text-align: left;
     }
 
     a span {
@@ -58,40 +60,41 @@
     .section {
       transition: all 0.75s;
       transform-origin: 50% 50%;
+    }
 
     a:link {
-      color: gainsboro;
+      color: rgb(220, 220, 220);
       background-color: transparent;
       text-decoration: none;
     }
 
     a:visited {
-      color: whitesmoke;
+      color: rgb(245, 245, 245);
       background-color: transparent;
       text-decoration: none;
     }
 
     a:hover {
-      color: gainsboro;
+      color: rgb(220, 220, 220);
       background-color: transparent;
       text-decoration: underline;
     }
 
     a:active {
-      color: whitesmoke;
+      color: rgb(245, 245, 245);
       background-color: transparent;
       text-decoration: underline;
     }
 </style>
-
+</head>
 <body>
     <div class='parent flex-parent'>
       <div class="flex-child">
         <img src="icemoss-circle.png" style="width:200px;height:200px;" alt="IceMoss Photo">
         <h1>IceMoss</h1>
         <div style="width:400px;margin:auto;">
-          <p align="left">Hey, I'm a student studying Computer Science with an interest in Linux and <span class="nowrap">open-source</span> technologies.</p>
-          <a href="/whatiuse">Software that I use</a>
+          <p>Hey, I'm a student studying Computer Science with an interest in Linux and <span class="nowrap">open-source</span> technologies.</p>
+            <a href="/whatiuse">aoeu</a>
         </div>
       </div>
       <div class="flex-child " style="padding-top:50px;">
