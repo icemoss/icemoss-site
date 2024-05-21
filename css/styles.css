@@ -101,21 +101,21 @@ a.sliding-link:active {
   text-decoration: underline;
   margin-left: 1em;
 }
-a.reg-link {
+a.outgoing {
   color: rgb(240, 240, 240);
   font-size: 16pt;
   background-color: transparent;
 }
-a.reg-link:link {
+a.outgoing:link {
   text-decoration: underline;
 }
-a.reg-link:visited {
+a.outgoing:visited {
   text-decoration: underline;
 }
-a.reg-link:hover {
+a.outgoing:hover {
   text-decoration: underline;
 }
-a.reg-link:active {
+a.outgoing:active {
   text-decoration: underline;
 }
 
