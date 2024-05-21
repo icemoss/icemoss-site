@@ -20,6 +20,7 @@ body {
   color: rgb(245, 245, 245);
   font-size: 30pt;
   text-decoration: underline;
+  white-space: nowrap;
 }
 .about-me-container {
   width: 400px;
