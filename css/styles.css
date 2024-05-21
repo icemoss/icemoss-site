@@ -45,40 +45,32 @@ body {
 .svg-button svg {
   width: 98px;
   height: 96px;
-  transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out; /* twice to sync button and svg */
 }
 .svg-button:hover svg {
     transform: scale(1.2);
 }
-.svg-button:active svg {
+.svg-button:active svg { /* When button held down */
     transform: scale(0.9);
 }
-sliding-link {
+a.sliding-link {
   transition: 0.5s;
-}
-a.sliding-link:link {
   color: rgb(240, 240, 240);
   font-size: 16pt;
   background-color: transparent;
+  margin-right: 1em;
+}
+a.sliding-link:link {
   text-decoration: none;
 }
 a.sliding-link:visited {
-  color: rgb(240, 240, 240);
-  font-size: 16pt;
-  background-color: transparent;
   text-decoration: none;
 }
 a.sliding-link:hover {
-  color: rgb(240, 240, 240);
-  font-size: 16pt;
-  background-color: transparent;
   text-decoration: underline;
   margin-left: 1em;
 }
 a.sliding-link:active {
-  color: rgb(240, 240, 240);
-  font-size: 16pt;
-  background-color: transparent;
   text-decoration: underline;
   margin-left: 1em;
 }
