@@ -1,0 +1,88 @@
+body {
+  background-color: rgb(28, 28, 28);
+}
+.page-container {
+  display: flex;
+  flex-direction: row;
+}
+.half-container {
+  display: flex;
+  flex-direction:column;
+  align-items:center;
+  width: 50%;
+  padding: 100px;
+}
+.portrait {
+  height: 250px;
+  width: 250px;
+}
+.icemoss-name {
+  color: rgb(245, 245, 245);
+  font-size: 30pt;
+  text-decoration: underline;
+}
+.about-me-container {
+  width: 400px;
+}
+.about-me {
+  color: rgb(240, 240, 240);
+  font-size: 16pt;
+}
+.social-icons {
+  display: flex;
+  flex-direction:row;
+  padding: 60px;
+ 
+}
+.svg-button {
+  display: inline-block;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+.svg-button svg {
+  width: 98px;
+  height: 96px;
+  transition: transform 0.3s ease-in-out;
+}
+.svg-button:hover svg {
+    transform: scale(1.2);
+}
+.svg-button:active svg {
+    transform: scale(0.9);
+}
+sliding-link {
+  transition: 0.5s;
+}
+a.sliding-link:link {
+  color: rgb(240, 240, 240);
+  font-size: 16pt;
+  background-color: transparent;
+  text-decoration: none;
+}
+a.sliding-link:visited {
+  color: rgb(240, 240, 240);
+  font-size: 16pt;
+  background-color: transparent;
+  text-decoration: none;
+}
+a.sliding-link:hover {
+  color: rgb(240, 240, 240);
+  font-size: 16pt;
+  background-color: transparent;
+  text-decoration: underline;
+  margin-left: 1em;
+}
+a.sliding-link:active {
+  color: rgb(240, 240, 240);
+  font-size: 16pt;
+  background-color: transparent;
+  text-decoration: underline;
+  margin-left: 1em;
+}
+
+
+
+
