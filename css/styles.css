@@ -1,6 +1,13 @@
 body {
   background-color: rgb(28, 28, 28);
 }
+:root { /* Custom Inter font */
+  font-family: Inter, sans-serif;
+  font-feature-settings: 'liga' 1, 'calt' 1; /* fix for Chrome */
+}
+@supports (font-variation-settings: normal) {
+  :root { font-family: InterVariable, sans-serif; }
+}
 .page-container {
   display: flex;
   flex-direction: row;
