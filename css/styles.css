@@ -12,20 +12,44 @@ body {
   width: 50%;
   padding: 100px;
 }
+.article-infobox {
+  display: flex;
+  flex-direction:column;
+  align-items:center;
+  width: 33%;
+  padding: 100px;
+}
+.article-content {
+  display: flex;
+  flex-direction:column;
+  align-items:center;
+  width: 67%;
+  padding: 250px;
+}
 .portrait {
   height: 250px;
   width: 250px;
 }
-.icemoss-name {
+.portrait-small {
+  height: 150px;
+  width: 150px;
+}
+.large-heading {
   color: rgb(245, 245, 245);
   font-size: 30pt;
+  text-decoration: underline;
+  white-space: nowrap;
+}
+.medium-heading {
+  color: rgb(245, 245, 245);
+  font-size: 25pt;
   text-decoration: underline;
   white-space: nowrap;
 }
 .about-me-container {
   width: 400px;
 }
-.about-me {
+.large-text {
   color: rgb(240, 240, 240);
   font-size: 16pt;
 }
@@ -75,7 +99,23 @@ a.sliding-link:active {
   text-decoration: underline;
   margin-left: 1em;
 }
-
+a.reg-link {
+  color: rgb(240, 240, 240);
+  font-size: 16pt;
+  background-color: transparent;
+}
+a.reg-link:link {
+  text-decoration: underline;
+}
+a.reg-link:visited {
+  text-decoration: underline;
+}
+a.reg-link:hover {
+  text-decoration: underline;
+}
+a.reg-link:active {
+  text-decoration: underline;
+}
 
 
 
