@@ -1,73 +1,96 @@
 body {
   background-color: rgb(28, 28, 28);
 }
-:root { /* Custom Inter font */
+
+:root {
+  /* Custom Inter font */
   font-family: Inter, sans-serif;
-  font-feature-settings: 'liga' 1, 'calt' 1; /* fix for Chrome */
+  font-feature-settings: 'liga' 1, 'calt' 1;
+  /* fix for Chrome */
 }
+
 @supports (font-variation-settings: normal) {
-  :root { font-family: InterVariable, sans-serif; }
+  :root {
+    font-family: InterVariable, sans-serif;
+  }
 }
+
 .page-container {
   display: flex;
   flex-direction: row;
 }
+
 .half-container {
   display: flex;
-  flex-direction:column;
-  align-items:center;
+  flex-direction: column;
+  align-items: center;
   width: 50%;
   padding: 100px;
 }
+
 .article-infobox {
   display: flex;
-  flex-direction:column;
-  align-items:center;
+  flex-direction: column;
+  align-items: center;
   width: 33%;
   padding: 100px;
 }
+
 .article-content {
   display: flex;
-  flex-direction:column;
-  align-items:center;
+  flex-direction: column;
+  align-items: center;
   width: 67%;
   padding-top: 120px;
   padding-bottom: 250px;
   padding-left: 230px;
   padding-right: 260px;
 }
+
 .portrait {
-  height: 250px;
-  width: 250px;
+  height: 210px;
+  width: 210px;
 }
+
 .portrait-small {
   height: 150px;
   width: 150px;
 }
+
 .large-heading {
   color: rgb(245, 245, 245);
   font-size: 30pt;
   text-decoration: underline;
   white-space: nowrap;
 }
+
 .medium-heading {
   color: rgb(245, 245, 245);
   font-size: 25pt;
   text-decoration: underline;
   white-space: nowrap;
 }
+
 .about-me-container {
   width: 400px;
 }
+
 .large-text {
   color: rgb(240, 240, 240);
   font-size: 16pt;
 }
+
+.medium-text {
+  color: rgb(240, 240, 240);
+  font-size: 13pt;
+}
+
 .social-icons {
   display: flex;
-  flex-direction:row;
+  flex-direction: row;
   padding: 60px;
 }
+
 .svg-button {
   display: inline-block;
   background-color: transparent;
@@ -76,17 +99,23 @@ body {
   padding: 10px;
   transition: transform 0.3s ease-in-out;
 }
+
 .svg-button svg {
   width: 98px;
   height: 96px;
-  transition: transform 0.3s ease-in-out; /* twice to sync button and svg */
+  transition: transform 0.3s ease-in-out;
+  /* twice to sync button and svg */
 }
+
 .svg-button:hover svg {
-    transform: scale(1.2);
+  transform: scale(1.2);
 }
-.svg-button:active svg { /* When button held down */
-    transform: scale(0.9);
+
+.svg-button:active svg {
+  /* When button held down */
+  transform: scale(0.9);
 }
+
 a.sliding-link {
   transition: 0.5s;
   color: rgb(240, 240, 240);
@@ -94,37 +123,43 @@ a.sliding-link {
   background-color: transparent;
   margin-right: 1em;
 }
+
 a.sliding-link:link {
   text-decoration: none;
 }
+
 a.sliding-link:visited {
   text-decoration: none;
 }
+
 a.sliding-link:hover {
   text-decoration: underline;
   margin-left: 1em;
 }
+
 a.sliding-link:active {
   text-decoration: underline;
   margin-left: 1em;
 }
+
 a.outgoing {
   color: rgb(240, 240, 240);
   font-size: 16pt;
   background-color: transparent;
 }
+
 a.outgoing:link {
   text-decoration: underline;
 }
+
 a.outgoing:visited {
   text-decoration: underline;
 }
+
 a.outgoing:hover {
   text-decoration: underline;
 }
+
 a.outgoing:active {
   text-decoration: underline;
 }
-
-
-
