@@ -1,190 +1,349 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en-GB">
+  <head>
+    <title>IceMoss | What I Use</title>
+    <link rel="icon" type="image/x-icon" href="icemoss-circle.ico" />
+    <!--Site Icon-->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://rsms.me/" />
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+    <meta charset="UTF-8" />
+    <meta name="darkreader-lock" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
 
-<head>
-  <title>IceMoss | What I Use</title>
-  <link rel="icon" type="image/x-icon" href="icemoss-circle.ico"> <!--Site Icon-->
-  <link rel="stylesheet" href="./css/styles.css">
-  <link rel="preconnect" href="https://rsms.me/">
-  <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
-  <meta charset="UTF-8">
-  <meta name="darkreader-lock">
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-</head>
-
-<body>
-  <div class="page-container">
-    <div class="article-infobox">
-      <img class="portrait-small" src="icemoss-circle.png" alt="IceMoss Photo">
-      <h1 class="large-heading">What I Use</h1>
-      <a class="large-text" href="./index.html">&lt;-- Back To Home</a>
+  <body>
+    <div class="page-container">
+      <div class="article-infobox">
+        <img
+          class="portrait-small"
+          src="icemoss-circle.png"
+          alt="IceMoss Photo"
+        />
+        <h1 class="large-heading">What I Use</h1>
+        <a class="large-text" href="./index.html">&lt;-- Back To Home</a>
+      </div>
+      <div class="article-content">
+        <p class="large-text">
+          The following list of software is by no means exhaustive, but what
+          includes much of what I generally find useful.
+        </p>
+        <h1 class="medium-heading">Desktop and Phone OS</h1>
+        <p class="large-text">
+          <em>Desktop OS:</em>
+          <a class="outgoing" target="_blank" href="https://fedoraproject.org/"
+            >Fedora Linux</a
+          ><br />
+          Fedora is a nice Linux distribution with up-to-date packages with the
+          stability and support of an LTS distribution. I choose to use Linux as
+          an operating system as it has very good compatibility with a variety
+          of programming tools, and with Steam's Proton compatibility layer it
+          can run 90% of Steam games too.
+          <br /><br /><em>Desktop Environment:</em>
+          <a class="outgoing" target="_blank" href="https://kde.org/">KDE</a
+          ><br />
+          KDE looks nice and is easily customisable. I prefer to use it with the
+          <a class="outgoing" target="_blank" href="https://catppuccin.com/"
+            >Catppuccin</a
+          >
+          theme as the color scheme looks great. The default Dolphin file
+          manager also manages to do the job very well. KDE also comes
+          pre-installed with
+          <a class="outgoing" target="_blank" href="https://kdeconnect.kde.org/"
+            >KDE Connect</a
+          >
+          which allows seamlessly linking an Android phone to my computer.
+          <br /><br /><em>Phone OS:</em>
+          <a class="outgoing" target="_blank" href="https://www.android.com/"
+            >Android</a
+          ><br />
+          Android is the only option for a phone with enough customisation and
+          proper support for sideloading apps. Third-party Android roms don't
+          have support for certain apps, so stock is the only option for me.
+          <br /><br /><em>Phone Launcher:</em>
+          <a
+            class="outgoing"
+            target="_blank"
+            href="https://niagaralauncher.app/"
+            >Niagara Launcher</a
+          ><br />
+          Niagara Launcher keeps my phone lightweight and simple to use. All
+          apps are sorted into an alphabetical list, with several pinned apps at
+          the top. Instead of scrolling through the apps, you are instantly
+          transported to the apps starting with a certain letter when tapping
+          the side of the screen. It initially took some getting used to, but
+          now it is second nature, and much faster than a stock Android
+          launcher! Additionally, I theme app icons using
+          <a
+            class="outgoing"
+            target="_blank"
+            href="https://www.iconpackstudio.com/"
+            >Icon Pack Studio</a
+          >
+          to give all app icons a consistent and clean theme.
+        </p>
+        <h1 class="medium-heading">Browser</h1>
+        <p class="large-text">
+          <em>Desktop Browser:</em>
+          <a
+            class="outgoing"
+            target="_blank"
+            href="https://www.mozilla.org/firefox/"
+            >Firefox</a
+          ><br />
+          Firefox is an amazing browser with compatibility for all sites, not
+          forced to be based on Chromium, and has a very wide array of useful
+          extensions. Not to mention it is incredibly customisable with the
+          advanced "about:config" page exposing all settings used by the
+          browser.
+          <br /><br /><em>Mobile Browser:</em>
+          <a
+            class="outgoing"
+            target="_blank"
+            href="https://www.mozilla.org/firefox/browsers/mobile/android"
+            >Firefox for Android</a
+          ><br />
+          Firefox for Android syncs browser history with desktop Firefox, and
+          has very good support for browser extensions. It is the only
+          mainstream mobile browser with support for uBlock Origin and can move
+          the searchbar to the bottom of the screen (which is a much more
+          sensible place for it in my opinion).
+          <br /><br /><em>Ad Blocker:</em>
+          <a
+            class="outgoing"
+            target="_blank"
+            href="https://github.com/gorhill/uBlock"
+            >uBlock Origin</a
+          ><br />
+          uBlock Origin is the uncontested best adblocker. It is very performant
+          <a
+            class="outgoing"
+            target="_blank"
+            href="https://github.com/gorhill/uBlock/wiki/uBlock-Origin-works-best-on-Firefox"
+          >
+            (especially on Firefox)</a
+          >
+          and works great out-of-the-box. In contrast to some other ad-blockers,
+          it is very customisable and has a myriad of alternative filter lists
+          that can be enabled. Some examples include: blocking cookie notices
+          without accepting them, removing unneccesary tracking content from
+          urls, and warning about known malware sites. Furthermore, it adds the
+          ability to right click on a page to selectively block unwanted html
+          elements such as "Upgrade to Premium" nags on websites. There also
+          exists
+          <a
+            class="outgoing"
+            target="_blank"
+            href="https://github.com/uBlockOrigin/uBOL-home"
+          >
+            uBlock Origin Lite</a
+          >
+          though it is not nowhere near as powerful or customisable as uBlock
+          Origin. However, it is based on MV3 so on some modern Chromium
+          browsers it is the only option.
+          <br /><br /><em>Password Manager:</em>
+          <a class="outgoing" target="_blank" href="https://bitwarden.com"
+            >Bitwarden</a
+          ><br />
+          Bitwarden is a cross-platform free password manager that is very
+          convenient to use. It's autofill functionality often works better than
+          the default for the browser. On Android, it also autofills inside
+          other apps, including those not supporting the Android Autofill
+          Framework. It does offer a paid tier, but the free tier has far more
+          features than many paid password managers, and it offers unlimited
+          synchronised devices.
+        </p>
+        <h1 class="medium-heading">Development Tools</h1>
+        <p class="large-text">
+          <em>Text Editor:</em>
+          <a class="outgoing" target="_blank" href="https://neovim.io/"
+            >Neovim</a
+          ><br />
+          Neovim is a versatile text editor which is based off of Vim and uses
+          Vim keybinds. These allow it to be much more efficient for editing
+          code specifically than any other text editor. With just a few key
+          presses, an entire paragraph could be cut, or the cursor could jump
+          between matching pairs of quotation marks. The possibilities are
+          endless, there are always new ways to become radically more
+          productive! I personally use a pre-built configuration called
+          <a class="outgoing" target="_blank" href="https://astronvim.com/"
+            >AstroNvim</a
+          >
+          as it comes with plenty of useful plugins pre-installed, though I do
+          make a few adjustments to suit my workflow. I use the frontend
+          <a class="outgoing" target="_blank" href="https://neovide.dev/"
+            >Neovide</a
+          >
+          as it makes it look nicer instead of running inside of a terminal, and
+          it adds slight animation to the cursor so it is easier to track when
+          navigating a file. I have customised it so that it uses the
+          <a class="outgoing" target="_blank" href="https://catppuccin.com/"
+            >Catppuccin</a
+          >
+          theme and the
+          <a
+            class="outgoing"
+            target="_blank"
+            href="https://www.jetbrains.com/lp/mono/"
+            >JetBrainsMono Font</a
+          >, downloadable as a Nerd Font with icon support from
+          <a
+            class="outgoing"
+            target="_blank"
+            href="https://www.nerdfonts.com/font-downloads"
+            >nerdfonts.com</a
+          >. <br /><br /><em>Git Host:</em>
+          <a class="outgoing" target="_blank" href="https://github.com/"
+            >GitHub</a
+          ><br />
+          GitHub is a staple in software development for its incredibly powerful
+          free plan and a huge variety of additional features. Even when used
+          simply, it easily allows for your code repositories to be synced
+          across devices and makes collaboration between people a breeze.
+          <br /><br /><em>Git Management:</em>
+          <a class="outgoing" target="_blank" href="https://desktop.github.com/"
+            >GitHub Desktop</a
+          ><br />
+          GitHub Desktop is a simple GUI client for managing your remote
+          repositories on GitHub. However, I am starting to use the
+          <a
+            class="outgoing"
+            target="_blank"
+            href="https://github.com/jesseduffield/lazygit"
+            >Lazygit plugin</a
+          >
+          inside Neovim to manage my commits so they are all centralised in one
+          place rather than needing to juggle several different windows. The
+          GitHub Desktop client does not have an official Linux build, but I use
+          <a
+            class="outgoing"
+            target="_blank"
+            href="https://github.com/jesseduffield/lazygit"
+            >Shiftkey's build</a
+          >
+          which supports Linux.
+          <br /><br /><em>Web Hosting:</em>
+          <a
+            class="outgoing"
+            target="_blank"
+            href="https://pages.cloudflare.com"
+            >Cloudflare Pages</a
+          ><br />
+          Cloudflare Pages is a free service by Cloudflare allowing you to
+          deploy static sites automatically whenever you push to a GitHub
+          repository. With 500 builds per month and unlimited bandwidth, it is
+          easy to see how it is a great choice for static sites. However, its
+          incapability to host dynamic sites may make me end up looking
+          elsewhere.
+        </p>
+        <h1 class="medium-heading">Email</h1>
+        <p class="large-text">
+          <em>Email Provider:</em>
+          <a
+            class="outgoing"
+            target="_blank"
+            href="https://www.infomaniak.com/en/free-email"
+            >Infomaniak</a
+          ><br />
+          Infomaniak is a great service for hosting your email, and in a free
+          plan offers 20GB of email storage and 15GB of general cloud storage.
+          What makes it stand out above other providers is they do not sell your
+          personal data, can be connected to any 3rd party email client as it
+          supports IMAP, and has the short and snappy @ik.me address.
+          <br /><br /><em>Desktop Email Client:</em>
+          <a class="outgoing" target="_blank" href="https://www.thunderbird.net"
+            >Thunderbird</a
+          ><br />
+          Thunderbird is a cross-platform email client that makes it easy to
+          manage all of my different email addresses. I can log into all of them
+          and favourite any folders I keep returning to. It supports client-side
+          rules and uses tabs to allow switching between several emails at once.
+          It's free, open source, and private. In my opinion, it is close to the
+          perfect email client that I could ever want.
+          <br /><br /><em>Android Email Client:</em>
+          <a
+            class="outgoing"
+            target="_blank"
+            href="https://github.com/M66B/FairEmail"
+            >FairEmail</a
+          ><br />
+          FairEmail is lightweight, minimalist, and able to connect with all of
+          my email addresses. It supports push notifications and automatic setup
+          with all major email providers. Although there is a one-off purchase
+          for some advanced features, it is purely optional and are not
+          required. It is open source, so you can contribute code to it or
+          manage a private fork if you desire.
+        </p>
+        <h1 class="medium-heading">Android Apps</h1>
+        <p class="large-text">
+          <em>Discord Client:</em>
+          <a
+            class="outgoing"
+            target="_blank"
+            href="https://github.com/Aliucord/Aliucord"
+            >Aliucord</a
+          ><br />
+          Aliucord is a lightweight Discord client based off of the official app
+          before it was redesigned to use the relatively inefficient Electron
+          framework. As a result, Aliucord has far better performance and
+          battery life than the official app. It supports a myriad of plugins
+          such as FakeNitro and AnonymiseFileNames which are very useful. The
+          installation is simple. As a result of being based off of an older
+          version of the Discord app, it is missing some of the latest features
+          such as super reactions and polls. However, I do not find myself
+          needing to use them often, and the official app is installed at the
+          same time in case I require them.
+          <br /><br /><em>Youtube Client:</em>
+          <a
+            class="outgoing"
+            target="_blank"
+            href="https://github.com/ReVanced/revanced-manager"
+            >Youtube Revanced</a
+          ><br />
+          Youtube Revanced is a modification of the official YouTube app to add
+          features such as ad-blocking, SponsorBlock, Return Youtube Dislike,
+          and so much more. It is installed through the Revanced Manager, which
+          also has modifications for other apps. It is highly customisable which
+          tweaks you wish to use, but I recommend enabling all of the default
+          ones to minimise risk of breakage.
+          <br /><br /><em>Youtube Downloader:</em>
+          <a
+            class="outgoing"
+            target="_blank"
+            href="https://github.com/JunkFood02/Seal"
+            >Seal</a
+          ><br />
+          Seal is a simple frontend for the
+          <a
+            class="outgoing"
+            target="_blank"
+            href="https://github.com/yt-dlp/yt-dlp"
+            >yt-dlp</a
+          >
+          downloader. The interface is simple and intuitive, with seamless
+          integration with Youtube Revanced after adding the package name to the
+          settings. It supports downloading entire videos or just the audio
+          (which is very useful for songs). Combined with a music player, it
+          makes a great way to listen to music offline, especially the more
+          niche music only available on YouTube. <br /><br /><em
+            >Music Player:</em
+          >
+          <a
+            class="outgoing"
+            target="_blank"
+            href="https://play.google.com/store/apps/details?id=in.krosbits.musicolet"
+            >Musicolet</a
+          ><br />
+          Musicolet is a great app for managing and playing downloaded audio
+          files. With widgets, album art, queue management, lyrics, and so much
+          more, it really is an amazing music player. Although it is not open
+          source, it is free, has no ads, and does not have the internet
+          permission so it is truly offline. There is an offered upgrade to a
+          premium version for a one-time-fee of £11, which adds Chromecast
+          support and even more granular sorting capabilities, but in my opinion
+          is mostly unnecessary.
+        </p>
+      </div>
     </div>
-    <div class="article-content">
-      <p class="large-text">The following list of software is by no means exhaustive, but what includes 
-        much of what I generally find useful.
-      </p>
-      <h1 class="medium-heading">Desktop and Phone OS</h1>
-      <p class="large-text">
-        <em>Desktop OS:</em>
-        <a class="outgoing" target="_blank" href="https://fedoraproject.org/">Fedora Linux</a><br>
-        Fedora is a nice Linux distribution with up-to-date packages with the stability
-        and support of an LTS distribution. I choose to use Linux as an operating system
-        as it has very good compatibility with a variety of programming tools, and with
-        Steam's Proton compatibility layer it can run 90% of Steam games too.
-        <br><br><em>Desktop Environment:</em>
-        <a class="outgoing" target="_blank" href="https://kde.org/">KDE</a><br>
-        KDE looks nice and is easily customisable. I prefer to use it with the
-        <a class="outgoing" target="_blank" href="https://catppuccin.com/">Catppuccin</a>
-        theme as the color scheme looks great. The default Dolphin file manager also
-        manages to do the job very well. KDE also comes pre-installed with
-        <a class="outgoing" target="_blank" href="https://kdeconnect.kde.org/">KDE Connect</a>
-        which allows seamlessly linking an Android phone to my computer.
-        <br><br><em>Phone OS:</em>
-        <a class="outgoing" target="_blank" href="https://www.android.com/">Android</a><br>
-        Android is the only option for a phone with enough customisation and proper support
-        for sideloading apps. Third-party Android roms don't have support for certain apps,
-        so stock is the only option for me.
-        <br><br><em>Phone Launcher:</em>
-        <a class="outgoing" target="_blank" href="https://niagaralauncher.app/">Niagara Launcher</a><br>
-        Niagara Launcher keeps my phone lightweight and simple to use. All apps are sorted
-        into an alphabetical list, with several pinned apps at the top. Instead of scrolling
-        through the apps, you are instantly transported to the apps starting with a certain
-        letter when tapping the side of the screen. It initially took some getting used to, but
-        now it is second nature, and much faster than a stock Android launcher! Additionally, I
-        theme app icons using
-        <a class="outgoing" target="_blank" href="https://www.iconpackstudio.com/">Icon Pack Studio</a>
-        to give all app icons a consistent and clean theme.
-      </p>
-      <h1 class="medium-heading">Browser</h1>
-      <p class="large-text">
-        <em>Desktop Browser:</em>
-        <a class="outgoing" target="_blank" href="https://www.mozilla.org/firefox/">Firefox</a><br>
-        Firefox is an amazing browser with compatibility for all sites, not forced to be based on
-        Chromium, and has a very wide array of useful extensions. Not to mention it is incredibly
-        customisable with the advanced "about:config" page exposing all settings used by the browser.
-        <br><br><em>Mobile Browser:</em>
-        <a class="outgoing" target="_blank" href="https://www.mozilla.org/firefox/browsers/mobile/android">Firefox for
-          Android</a><br>
-        Firefox for Android syncs browser history with desktop Firefox, and has very good support for
-        browser extensions. It is the only mainstream mobile browser with support for uBlock Origin and
-        can move the searchbar to the bottom of the screen (which is a much more sensible place for it in
-        my opinion).
-        <br><br><em>Ad Blocker:</em>
-        <a class="outgoing" target="_blank" href="https://github.com/gorhill/uBlock">uBlock
-          Origin</a><br>
-        uBlock Origin is the uncontested best adblocker. It is very performant
-        <a class="outgoing" target="_blank"
-          href="https://github.com/gorhill/uBlock/wiki/uBlock-Origin-works-best-on-Firefox">
-          (especially on Firefox)</a>
-        and works great out-of-the-box. In contrast to some other ad-blockers, it is very customisable
-        and has a myriad of alternative filter lists that can be enabled. Some examples include: blocking
-        cookie notices without accepting them, removing unneccesary tracking content from urls, and warning
-        about known malware sites. Furthermore, it adds the ability to right click on a page to selectively
-        block unwanted html elements such as "Upgrade to Premium" nags on websites. There also exists
-        <a class="outgoing" target="_blank" href="https://github.com/uBlockOrigin/uBOL-home">
-          uBlock Origin Lite</a>
-        though it is not nowhere near as powerful or customisable as uBlock Origin. However, it is
-        based on MV3 so on some modern Chromium browsers it is the only option.
-        <br><br><em>Password Manager:</em>
-        <a class="outgoing" target="_blank" href="https://bitwarden.com">Bitwarden</a><br>
-        Bitwarden is a cross-platform free password manager that is very convenient to use.
-        It's autofill functionality often works better than the default for the browser. On
-        Android, it also autofills inside other apps, including those not supporting the Android
-        Autofill Framework. It does offer a paid tier, but the free tier has far more features than
-        many paid password managers, and it offers unlimited synchronised devices.
-      </p>
-      <h1 class="medium-heading">Development Tools</h1>
-      <p class="large-text">
-        <em>Text Editor:</em>
-        <a class="outgoing" target="_blank" href="https://neovim.io/">Neovim</a><br>
-        Neovim is a versatile text editor which is based off of Vim and uses Vim keybinds. These
-        allow it to be much more efficient for editing code specifically than any other text editor.
-        With just a few key presses, an entire paragraph could be cut, or the cursor could jump between
-        matching pairs of quotation marks. The possibilities are endless, there are always new ways to
-        become radically more productive! I personally use a pre-built configuration called
-        <a class="outgoing" target="_blank" href="https://astronvim.com/">AstroNvim</a>
-        as it comes with plenty of useful plugins pre-installed, though I do make a few adjustments to
-        suit my workflow. I use the frontend
-        <a class="outgoing" target="_blank" href="https://neovide.dev/">Neovide</a>
-        as it makes it look nicer instead of running inside of a terminal, and it adds slight animation
-        to the cursor so it is easier to track when navigating a file. I have customised it so
-        that it uses the
-        <a class="outgoing" target="_blank" href="https://catppuccin.com/">Catppuccin</a>
-        theme and the
-        <a class="outgoing" target="_blank" href="https://www.jetbrains.com/lp/mono/">JetBrainsMono Font</a>,
-        downloadable as a Nerd Font with icon support from
-        <a class="outgoing" target="_blank" href="https://www.nerdfonts.com/font-downloads">nerdfonts.com</a>.
-        <br><br><em>Git Host:</em>
-        <a class="outgoing" target="_blank" href="https://github.com/">GitHub</a><br>
-        GitHub is a staple in software development for its incredibly powerful free plan and a huge variety
-        of additional features. Even when used simply, it easily allows for your code repositories to be synced
-        across devices and makes collaboration between people a breeze.
-        <br><br><em>Git Management:</em>
-        <a class="outgoing" target="_blank" href="https://desktop.github.com/">GitHub Desktop</a><br>
-        GitHub Desktop is a simple GUI client for managing your remote repositories on GitHub.
-        However, I am starting to use the
-        <a class="outgoing" target="_blank" href="https://github.com/jesseduffield/lazygit">Lazygit plugin</a>
-        inside Neovim to manage my commits so they are all centralised in one place rather than needing to
-        juggle several different windows. The GitHub Desktop client does not have an official Linux build, but
-        I use
-        <a class="outgoing" target="_blank" href="https://github.com/jesseduffield/lazygit">Shiftkey's build</a>
-        which supports Linux.
-        <br><br><em>Web Hosting:</em>
-        <a class="outgoing" target="_blank" href="https://pages.cloudflare.com">Cloudflare Pages</a><br>
-        Cloudflare Pages is a free service by Cloudflare allowing you to deploy static sites automatically
-        whenever you push to a GitHub repository. With 500 builds per month and unlimited bandwidth, it is
-        easy to see how it is a great choice for static sites. However, its incapability to host dynamic
-        sites may make me end up looking elsewhere.
-      </p>
-      <h1 class="medium-heading">Email</h1>
-      <p class="large-text">
-      <em>Email Provider:</em>
-      <a class="outgoing" target="_blank" href="https://www.infomaniak.com/en/free-email">Infomaniak</a><br>
-      Infomaniak is a great service for hosting your email, and in a free plan offers 20GB of email storage 
-      and 15GB of general cloud storage. What makes it stand out above other providers is they do not sell your 
-      personal data, can be connected to any 3rd party email client as it supports IMAP, and has the short and snappy 
-      @ik.me address.
-      <br><br><em>Desktop Email Client:</em>
-      <a class="outgoing" target="_blank" href="https://www.thunderbird.net">Thunderbird</a><br>
-      Thunderbird is a cross-platform email client that makes it easy to manage all of my different email addresses. 
-      I can log into all of them and favourite any folders I keep returning to. It supports client-side rules and 
-      uses tabs to allow switching between several emails at once. It's free, open source, and private. In my opinion, 
-      it is close to the perfect email client that I could ever want.
-      <br><br><em>Android Email Client:</em>
-      <a class="outgoing" target="_blank" href="https://github.com/M66B/FairEmail">FairEmail</a><br>
-      FairEmail is lightweight, minimalist, and able to connect with all of my email addresses. It supports push notifications 
-      and automatic setup with all major email providers. Although there is a one-off purchase for some advanced features, it 
-      is purely optional and are not required. It is open source, so you can contribute code to it or manage a private fork if you 
-      desire.
-      </p>
-      <h1 class="medium-heading">Android Apps</h1>
-      <p class="large-text">
-      <em>Discord Client:</em>
-      <a class="outgoing" target="_blank" href="https://github.com/Aliucord/Aliucord">Aliucord</a><br>
-      Aliucord is a lightweight Discord client based off of the official app before it was redesigned to use the relatively 
-      inefficient Electron framework. As a result, Aliucord has far better performance and battery life than the official app. 
-      It supports a myriad of plugins such as FakeNitro and AnonymiseFileNames which are very useful. The installation is simple.
-      As a result of being based off of an older version of the Discord app, it is missing some of the latest features such as 
-      super reactions and polls. However, I do not find myself needing to use them often, 
-      and the official app is installed at the same time in case I require them.
-      <br><br><em>Youtube Client:</em>
-      <a class="outgoing" target="_blank" href="https://github.com/ReVanced/revanced-manager">Youtube Revanced</a><br>
-      Youtube Revanced is a modification of the official YouTube app to add features such as ad-blocking, SponsorBlock, 
-      Return Youtube Dislike, and so much more. It is installed through the Revanced Manager, which also has modifications 
-      for other apps. It is highly customisable which tweaks you wish to use, but I recommend enabling all of the default ones 
-      to minimise risk of breakage.
-      <br><br><em>Youtube Downloader:</em>
-      <a class="outgoing" target="_blank" href="https://github.com/JunkFood02/Seal">Seal</a><br>
-      Seal is a simple frontend for the <a class="outgoing" target="_blank" href="https://github.com/yt-dlp/yt-dlp">yt-dlp</a> downloader. 
-      The interface is simple and intuitive, with seamless integration with Youtube Revanced after adding the package name to the settings.
-      It supports downloading entire videos or just the audio (which is very useful for songs). Combined with a music player, it makes a 
-      great way to listen to music offline, especially the more niche music only available on YouTube.
-      <br><br><em>Music Player:</em>
-      <a class="outgoing" target="_blank" href="https://play.google.com/store/apps/details?id=in.krosbits.musicolet">Musicolet</a><br>
-      Musicolet is a great app for managing and playing downloaded audio files. With widgets, album art, queue management, lyrics, 
-      and so much more, it really is an amazing music player. Although it is not open source, it is free, has no ads, and does not 
-      have the internet permission so it is truly offline. There is an offered upgrade to a premium version for a one-time-fee of 
-      £11, which adds Chromecast support and even more granular sorting capabilities, but in my opinion is mostly unnecessary.
-</body>
-
+  </body>
 </html>
